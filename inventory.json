@@ -1,0 +1,31 @@
+{
+	"cars": [
+		{
+			"make": "Jeep",
+			"model": "Wrangler",
+			"year": "2006",
+			"price": "8999",
+			"color": "Orange",
+			"purchased": false,
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque neque mi, varius dictum egestas ut."
+		},
+		{
+			"make": "Jeep",
+			"model": "Cherokee Sport",
+			"year": "2001",
+			"price": "14000",
+			"color": "Red",
+			"purchased": false,
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, massa eget convallis tempor."
+		},
+		{
+			"make": "Jeep",
+			"model": "Compass",
+			"year": "2007",
+			"price": "18000",
+			"color": "Black",
+			"purchased": false,
+			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed pretium sapien, in porta nibh."
+		}
+	]
+}
