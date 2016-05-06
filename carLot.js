@@ -1,25 +1,23 @@
-var CarLot = (function () {
+var CarLot = (function (load) {
 	var inventory = [];
 
-	return {
+	load.loadInventory= function (callback) {
+		var inventoryLoader = new XMLHttpRequest();
+		inventoryLoader.open("GET", "inventory.json");
+		inventoryLoader.send();
+		inventoryLoader.addEventListener("load", function () {
+			var jsonData = JSON.parse(this.responseText);
+			for(i=0; i<jsonData.cars.length; i++) {
+				inventory.push(jsonData.cars[i]);
+			}
+			callback (inventory);
+		})
+	},
 
-		loadInventory: function (callback) {
-			var inventoryLoader = new XMLHttpRequest();
-			inventoryLoader.open("GET", "inventory.json");
-			inventoryLoader.send();
-			inventoryLoader.addEventListener("load", function () {
-				var jsonData = JSON.parse(this.responseText);
-				for(i=0; i<jsonData.cars.length; i++) {
-					inventory.push(jsonData.cars[i]);
-				}
-				console.log(inventory);
-				callback(inventory);
-			})
-
-		},
-		getInventory: function () {
-			return inventory
+	load.getInventory= function () {
+			return inventory;
 		}
-	};
 
-})();
+	return load;
+
+})(CarLot || {});
