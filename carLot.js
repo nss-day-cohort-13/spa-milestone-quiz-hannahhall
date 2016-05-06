@@ -12,7 +12,10 @@ var CarLot = (function () {
 				for(i=0; i<jsonData.cars.length; i++) {
 					inventory.push(jsonData.cars[i]);
 				}
+				console.log(inventory);
+				callback(inventory);
 			})
+
 		},
 		getInventory: function () {
 			return inventory
