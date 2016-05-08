@@ -21,7 +21,7 @@
 		{
 			"make": "Chevrolet",
 			"model": "Camaro",
-			"year": "2007",
+			"year": "1967",
 			"price": "18000",
 			"color": "Black",
 			"purchased": false,
@@ -37,11 +37,47 @@
 			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed pretium sapien, in porta nibh."
 		},
 		{
+			"make": "Toyota",
+			"model": "Camry",
+			"year": "2007",
+			"price": "18000",
+			"color": "Blue",
+			"purchased": false,
+			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed pretium sapien, in porta nibh."
+		},
+				{
+			"make": "Dodge",
+			"model": "Charger",
+			"year": "2007",
+			"price": "18000",
+			"color": "Gold",
+			"purchased": false,
+			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed pretium sapien, in porta nibh."
+		},
+				{
 			"make": "Jeep",
-			"model": "Compass",
+			"model": "Wrangler",
 			"year": "2007",
 			"price": "18000",
 			"color": "Purple",
+			"purchased": false,
+			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed pretium sapien, in porta nibh."
+		},
+				{
+			"make": "Ford",
+			"model": "Mustang",
+			"year": "2007",
+			"price": "18000",
+			"color": "Tomato",
+			"purchased": false,
+			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed pretium sapien, in porta nibh."
+		},
+				{
+			"make": "Dodge",
+			"model": "Challenger",
+			"year": "2007",
+			"price": "18000",
+			"color": "Brown",
 			"purchased": false,
 			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed pretium sapien, in porta nibh."
 		},
