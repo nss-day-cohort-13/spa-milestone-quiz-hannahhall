@@ -19,11 +19,38 @@
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, massa eget convallis tempor."
 		},
 		{
+			"make": "Chevrolet",
+			"model": "Camaro",
+			"year": "2007",
+			"price": "18000",
+			"color": "Black",
+			"purchased": false,
+			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed pretium sapien, in porta nibh."
+		},
+		{
 			"make": "Jeep",
 			"model": "Compass",
 			"year": "2007",
 			"price": "18000",
-			"color": "Black",
+			"color": "Green",
+			"purchased": false,
+			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed pretium sapien, in porta nibh."
+		},
+		{
+			"make": "Jeep",
+			"model": "Compass",
+			"year": "2007",
+			"price": "18000",
+			"color": "Purple",
+			"purchased": false,
+			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed pretium sapien, in porta nibh."
+		},
+		{
+			"make": "Jeep",
+			"model": "Compass",
+			"year": "2007",
+			"price": "18000",
+			"color": "Teal",
 			"purchased": false,
 			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed pretium sapien, in porta nibh."
 		}
