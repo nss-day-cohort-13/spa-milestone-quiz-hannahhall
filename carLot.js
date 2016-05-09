@@ -1,7 +1,7 @@
 var CarLot = (function (load) {
 	var inventory = [];
 
-	load.loadInventory= function (callback) {
+	load.loadInventory= function (populate) {
 		var inventoryLoader = new XMLHttpRequest();
 		inventoryLoader.open("GET", "inventory.json");
 		inventoryLoader.send();
@@ -10,7 +10,7 @@ var CarLot = (function (load) {
 			for(i=0; i<jsonData.cars.length; i++) {
 				inventory.push(jsonData.cars[i]);
 			}
-			callback (inventory);
+			populate (inventory);
 		})
 	},
 

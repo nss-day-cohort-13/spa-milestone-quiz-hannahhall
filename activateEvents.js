@@ -1,4 +1,4 @@
-var CarLot 			= (function (events) {
+var CarLot = (function (events) {
 	var pageInput = document.getElementById("inventory");
 	var textInput = document.getElementById("input");
 	var updateBtn = document.getElementById("button");
